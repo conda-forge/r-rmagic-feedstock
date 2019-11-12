@@ -1,4 +1,4 @@
-{% set version = '1.4.0' %}
+{% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/Rmagic_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Rmagic/Rmagic_{{ version }}.tar.gz
-  sha256: c0bf24e08866039d8cc07e7d1dfd4767be07cf1a371d6e84123f797013fbc275
+  sha256: 24d153ffd4d3314c544da7c58dcb53d41f7b9afb6f672457d031ae50d9ac6436
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
