@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=Rmagic
-  license: GPL-2
+  license: GPL-2.0-only
   summary: 'MAGIC (Markov affinity-based graph imputation of cells) is a method for addressing
     technical noise in single-cell data, including under-sampling of mRNA molecules,
     often termed "dropout" which can severely obscure important gene-gene relationships.
