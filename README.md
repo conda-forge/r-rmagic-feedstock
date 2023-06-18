@@ -1,11 +1,11 @@
-About r-rmagic
-==============
+About r-rmagic-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rmagic-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=Rmagic
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rmagic-feedstock/blob/main/LICENSE.txt)
 
 Summary: MAGIC (Markov affinity-based graph imputation of cells) is a method for addressing technical noise in single-cell data, including under-sampling of mRNA molecules, often termed "dropout" which can severely obscure important gene-gene relationships. MAGIC shares information across similar cells, via data diffusion, to denoise the cell count matrix and fill in missing transcripts. Read more: van Dijk et al. (2018) <DOI:10.1016/j.cell.2018.05.061>.
 
